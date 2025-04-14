@@ -1,12 +1,14 @@
 import { useState } from 'react'
-//import './App.css'
+import Gallery from './components/Gallery'
 
-function App() {
-  //const [count, setCount] = useState(0)
+/* function App() {
+
+//const [tours, setTours] = useState([]);
+
 
   return (
-  <h1>Test Bro</h1>
+    
   )
 }
 
-export default App
+export default App */
