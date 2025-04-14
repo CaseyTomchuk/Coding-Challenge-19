@@ -7,7 +7,7 @@ const TourCard = ({id, name, info, price, image, onRemove}) => {
     <article className="tour-card">
       <h3>{name}</h3>
       <h5>{price}</h5>
-      <img src={image} alt={name} />
+      <img src={image} alt={name} className ="page-image"/>
       <p>
         {readMore ? info : `${info.substring(0, 80)}...`}
         <button onClick={() => setReadMore(!readMore)}>
